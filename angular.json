@@ -30,9 +30,21 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              {
+                "input": "other-files/other-styles.scss",
+                "bundleName": "other-styles.css",
+                "inject": true
+              }
             ],
-            "scripts": []
+            "scripts": [
+              "other-files/main-scripts.ts",
+              {
+                "input": "other-files/other-scripts.js",
+                "bundleName": "other-scripts.js",
+                "inject": true
+              }
+            ]
           },
           "configurations": {
             "production": {
