@@ -33,15 +33,15 @@
               "src/styles.scss",
               {
                 "input": "other-files/other-styles.scss",
-                "bundleName": "other-styles.css",
+                "bundleName": "other-styles",
                 "inject": true
               }
             ],
             "scripts": [
-              "other-files/main-scripts.ts",
+              "other-files/main-scripts.js",
               {
                 "input": "other-files/other-scripts.js",
-                "bundleName": "other-scripts.js",
+                "bundleName": "other-scripts",
                 "inject": true
               }
             ]

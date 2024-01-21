@@ -1,1 +1,1 @@
-window["message"] = "Hello world";
+window["other_message"] = "Hello world";
